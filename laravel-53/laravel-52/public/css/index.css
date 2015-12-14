@@ -1,0 +1,167 @@
+body{
+    color: #ffffff;
+}
+.container-fluid{
+    background: rgb(27,27,27);
+    background:rgba(27,27,27,0);
+    /* For IE 5.5 - 7*/filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#00000000);
+    /* For IE 8*/-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#00000000);
+    height: 500px;
+    position: relative;
+    left: -132px;
+}
+
+.section1{
+    background:#19193b;
+    background-size: 100% 100%;
+
+}
+.section3{
+    background:#a97fff;
+    margin:0 auto;
+}
+.sec3_content{
+    margin-left: 15%;
+    margin-top: 1px;
+}
+.section4{
+    background:#ff9833;
+}
+.sec_img_content{
+    background-repeat: no-repeat;
+}
+/*.secimg4 :hover,.secimg3 :hover,.secimg2 :hover,.secimg1 :hover{*/
+    /*background:#999999 ;*/
+    /*opacity: 0.7;*/
+/*}*/
+.secimg1{
+    background: url("img/tt-01.png");
+
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.secimg2{
+    background: url("img/tt-02.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.secimg3{
+    background: url("img/tt-03.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.secimg4{
+    background: url("img/tt-04.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.section5{
+    background: #637b9f;
+}
+.frontimg{
+    left: 0;
+}
+.content_bottom {
+    /* Fallback for web browsers that doesn't support RGBa */
+     height: 100%;background: rgb(0, 0, 0);/* RGBa with 0.6 opacity */background: rgba(0, 0, 0, 0);
+    /* For IE 5.5 - 7*/filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000);
+    /* For IE 8*/-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00000000, endColorstr=#00000000);
+}
+.sec3_head{
+    color: white;
+}
+.sec3_descript{
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.2;
+    font-family: monospace, monospace;
+}
+.sec3_img{
+    height: 83%;
+    margin-top: 11%;
+}
+.content{
+    background: url(img/wz-02.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+.content_bottom :hover{
+    background: rgb(0,0, 0);
+    /* RGBa with 0.6 opacity */background: rgba(0, 0, 0, 0.4);
+    /* For IE 5.5 - 7*/filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
+    /* For IE 8*/-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
+}
+.sec3_p{
+    position: relative;
+    opacity: 0;
+    color: white;
+}
+.sec5{
+  margin-left: 10px;
+    border-radius: 5px;
+}
+.slide{
+    font-size: 30px;
+    font-family: Î¢ÈíÑÅºÚ;
+}
+.slide1{
+/*background: url("img/6.jpg");*/
+}
+p{
+    font-size: 15px;
+    color: black;
+}
+.slide2{
+    background: url("img/1.jpg");
+}
+.slide3{
+    background: url("");
+}
+.slide4{
+    background: url("");
+}
+#header{
+    position: fixed;
+    top: 0;
+    right: 200px;
+    font-size: 50px;
+    background: url("");
+}
+#fullpageMenu{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: fixed;
+    z-index: 999;
+}
+.creat-prahic{
+    text-align: center;
+    overflow: hidden;
+}
+.pradec{
+    font-size: 15px;
+    margin-top: 3px;
+    text-align: center;
+    color: white;
+}
+/*.prahic-wraper{*/
+    /*height: 100%;*/
+ /*}*/
+
+.prahic1, .prahic2, .prahic3, .prahic4, .prahic5, .prahic6, .prahic7, .prahic8, .prahic9 {
+    font-size: 20px;
+    width: 100%;
+    margin-top: 5px;
+    transition: scaleZ 20s;
+    -moz-transition: width 2s;	/* Firefox 4 */
+    -webkit-transition: width 2s;	/* Safari ºÍ Chrome */
+    -o-transition: width 2s;	/* Opera */
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
+    transform: scaleX(0) scaleY(0) scaleZ(0);
+    -moz-transform:scaleX(0) scaleY(0) scaleZ(0);
+    -ms-transform: scaleX(0) scaleY(0) scaleZ(0);
+    -o-transform:scaleX(0) scaleY(0) scaleZ(0);
+    -webkit-transform: scaleX(0) scaleY(0) scaleZ(0);
+    text-align: center;
+}
