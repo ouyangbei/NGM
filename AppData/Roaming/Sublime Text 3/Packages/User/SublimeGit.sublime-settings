@@ -1,6 +1,0 @@
-{
-    "git_executables": {
-		"git"     : ["C:/Program Files/Git/bin/git.exe"],
-   		"git_command": "C:/Program Files/Git/bin/git.exe"
-    }
-}
